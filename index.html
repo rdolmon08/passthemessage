@@ -17,10 +17,16 @@
             <p>
                 <label for="message-input">Enter a message</label>
                 <br>
-                <button></button>
-                <input id="message-input" />
+                <button style="border-radius: 5px 0 0 5px;"><i class="far fa-envelope"></i></button>
+                <input id="message-input" type="text"/>
             </p>
-            <p></p>
+
+            <p>
+                <button onclick="getMessage()">Submit</button>
+            </p>
+
+            <p id="message-output" style="text-align: center;text-transform: uppercase;">
+            </p>
         </div>
     </div>
 <script src="script.js"></script>
